@@ -1,0 +1,9 @@
+package br.fatec.factorymethod;
+
+public class SMSNotificacao implements Notificacao {
+
+    @Override
+    public void enviar(String mensagem) {
+        System.out.println("SMS enviado: " + mensagem);
+    }
+}
